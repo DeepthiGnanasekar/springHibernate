@@ -1,8 +1,9 @@
 package com.deeps.watercanappapi.validator;
 
 import org.springframework.stereotype.Component;
-import exception.ValidatorException;
-import model.UserDetails;
+
+import com.deeps.watercanappapi.exception.ValidatorException;
+import com.deeps.watercanappapi.model.UserDetails;
 
 @Component
 public class AdminValidator {
